@@ -24,6 +24,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ291bnRlci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/dbregovic/source/repos/Amadeus/Amadeus/Pages/Entrance.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRW50cmFuY2UucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/dbregovic/source/repos/Amadeus/Amadeus/Pages/FetchData.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRmV0Y2hEYXRhLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
@@ -34,6 +38,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/dbregovic/source/repos/Amadeus/Amadeus/Pages/Index.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dbregovic/source/repos/Amadeus/Amadeus/Pages/Offers.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcT2ZmZXJzLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/dbregovic/source/repos/Amadeus/Amadeus/Shared/SurveyPrompt.razor]
