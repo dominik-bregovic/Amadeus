@@ -2,6 +2,7 @@
 
 html, body {
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    background-color: gainsboro;
 }
 
 h1:focus {
@@ -75,9 +76,26 @@ a, .btn-link {
 }
 
 .center {
-    border: 5px solid;
-    padding: 50px 0;
+    margin: auto;
+    border: 0px solid;
+    padding: 20px 0;
+    text-align: center;
 }
+
+.center_header {
+    margin: auto;
+    border: 0px solid;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.row {
+    margin-left: -20px;
+    *zoom: 1;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
 
 .masthead {
     background-image: url('../images/landing_picture.png');
@@ -107,5 +125,54 @@ a, .btn-link {
     position: absolute;
     width: 100%;
     height: 20%;
+}
+
+.tooltip-wrapper {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+    cursor: help;
+    color: white;
+    font-size: 25px;
+}
+
+span {
+    visibility: hidden;
+    position: absolute;
+    width: 120px;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -60px;
+    background-color: #363635;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+    z-index: 1;
+    font-size: 20px;
+}
+
+    span::after {
+        content: "";
+        position: absolute;
+        top: 100%;
+        left: 50%;
+        margin-left: -5px;
+        border-width: 5px;
+        border-style: solid;
+        border-color: #555 transparent transparent transparent;
+    }
+
+.tooltip-wrapper:hover span {
+    visibility: visible;
+}
+
+.offers_allingnment {
+    margin: auto;
+    padding-top: 90px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
 }
 
