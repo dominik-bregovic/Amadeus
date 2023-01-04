@@ -78,60 +78,27 @@ a, .btn-link {
 .center {
     margin: auto;
     border: 0px solid;
-    padding: 20px 0;
+    padding: 30px 0;
     text-align: center;
 }
 
-.center_header {
-    margin: auto;
-    border: 0px solid;
-    padding: 10px 0;
-    text-align: center;
-}
+
+
+
 
 .row {
-    margin-left: -20px;
     *zoom: 1;
     margin-top: 0px;
     margin-bottom: 0px;
 }
 
 
-.masthead {
-    background-image: url('../images/landing_picture.png');
-   background-size: cover;
-   min-height: 60vh;
-   position: relative;
-   color:white;
-   text-shadow: 2px 2px 2px rgba(0,0,0,.2);
-}
 
-.image_text_header {
-    font-size: 4rem;
-}
-
-.image_text_footer {
-    font-size: 2rem;
-}
-
-.image_text_overlay {
-    position: absolute;
-    width: 50%;
-    height: 100%;
-   
-}
-
-.text_overlay {
-    position: absolute;
-    width: 100%;
-    height: 20%;
-}
 
 .tooltip-wrapper {
     position: relative;
     display: inline-block;
     border-bottom: 1px dotted black;
-    cursor: help;
     color: white;
     font-size: 25px;
 }
@@ -167,12 +134,32 @@ span {
     visibility: visible;
 }
 
-.offers_allingnment {
-    margin: auto;
-    padding-top: 90px;
-    padding-bottom: 10px;
-    padding-left: 20px;
-    padding-right: 20px;
-    text-align: center;
+
+.sticky-header {
+    position: sticky;
+    top: 0;
+    z-index: 10;
 }
+
+    .sticky-header::before {
+        content: '';
+        width: 100%;
+        height: 1px;
+        position: absolute;
+        top: -1px;
+        left: 0;
+        background-color: #fcfcfc;
+        z-index: -1;
+    }
+
+    .sticky-header + .sticky-header::after {
+        content: '';
+        width: 1px;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: -1px;
+        background-color: #fcfcfc;
+        z-index: -1;
+    }
 

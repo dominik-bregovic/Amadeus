@@ -1,0 +1,14 @@
+﻿
+.center_header {
+    margin: auto;
+    border: 0px solid;
+    padding: 10px 0;
+    text-align: center;
+}
+
+
+.img:hover {
+    border-width: 10px;
+    background-color: #ffffff;
+    border-radius: 6px;
+}

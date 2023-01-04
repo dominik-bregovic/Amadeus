@@ -1,0 +1,26 @@
+﻿
+
+
+.center_header {
+    margin: auto;
+    border: 0px solid;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.transition_picture {
+    padding-top: 0px;
+    float: right;
+    height: 100px;
+    border: 0px solid;
+}
+.transition_text {
+    float:left;
+    width: 300px;
+    height: 100px;
+    border: 0px solid;
+}
+
+.img {
+    transform: rotate(180deg);
+}

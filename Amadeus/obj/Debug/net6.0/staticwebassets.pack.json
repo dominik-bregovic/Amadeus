@@ -57,12 +57,36 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\dbregovic\\source\\repos\\Amadeus\\Amadeus\\wwwroot\\images\\amadeus-icon.png",
+      "PackagePath": "staticwebassets\\images\\amadeus-icon.png"
+    },
+    {
+      "Id": "C:\\Users\\dbregovic\\source\\repos\\Amadeus\\Amadeus\\wwwroot\\images\\dnevni-meni.jpg",
+      "PackagePath": "staticwebassets\\images\\dnevni-meni.jpg"
+    },
+    {
+      "Id": "C:\\Users\\dbregovic\\source\\repos\\Amadeus\\Amadeus\\wwwroot\\images\\dnevni.jpg",
+      "PackagePath": "staticwebassets\\images\\dnevni.jpg"
+    },
+    {
       "Id": "C:\\Users\\dbregovic\\source\\repos\\Amadeus\\Amadeus\\wwwroot\\images\\email-Icon.png",
       "PackagePath": "staticwebassets\\images\\email-Icon.png"
     },
     {
+      "Id": "C:\\Users\\dbregovic\\source\\repos\\Amadeus\\Amadeus\\wwwroot\\images\\facebook.png",
+      "PackagePath": "staticwebassets\\images\\facebook.png"
+    },
+    {
+      "Id": "C:\\Users\\dbregovic\\source\\repos\\Amadeus\\Amadeus\\wwwroot\\images\\free-phone-icon-1-thumb.png",
+      "PackagePath": "staticwebassets\\images\\free-phone-icon-1-thumb.png"
+    },
+    {
       "Id": "C:\\Users\\dbregovic\\source\\repos\\Amadeus\\Amadeus\\wwwroot\\images\\free-phone-icon.png",
       "PackagePath": "staticwebassets\\images\\free-phone-icon.png"
+    },
+    {
+      "Id": "C:\\Users\\dbregovic\\source\\repos\\Amadeus\\Amadeus\\wwwroot\\images\\instagram.png",
+      "PackagePath": "staticwebassets\\images\\instagram.png"
     },
     {
       "Id": "C:\\Users\\dbregovic\\source\\repos\\Amadeus\\Amadeus\\wwwroot\\images\\landing_picture.png",
@@ -71,6 +95,22 @@
     {
       "Id": "C:\\Users\\dbregovic\\source\\repos\\Amadeus\\Amadeus\\wwwroot\\images\\menu-Icon.jpg",
       "PackagePath": "staticwebassets\\images\\menu-Icon.jpg"
+    },
+    {
+      "Id": "C:\\Users\\dbregovic\\source\\repos\\Amadeus\\Amadeus\\wwwroot\\images\\menu.jpg",
+      "PackagePath": "staticwebassets\\images\\menu.jpg"
+    },
+    {
+      "Id": "C:\\Users\\dbregovic\\source\\repos\\Amadeus\\Amadeus\\wwwroot\\images\\menu.png",
+      "PackagePath": "staticwebassets\\images\\menu.png"
+    },
+    {
+      "Id": "C:\\Users\\dbregovic\\source\\repos\\Amadeus\\Amadeus\\wwwroot\\images\\navigation.png",
+      "PackagePath": "staticwebassets\\images\\navigation.png"
+    },
+    {
+      "Id": "C:\\Users\\dbregovic\\source\\repos\\Amadeus\\Amadeus\\wwwroot\\images\\pica.jpg",
+      "PackagePath": "staticwebassets\\images\\pica.jpg"
     },
     {
       "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.Amadeus.Microsoft.AspNetCore.StaticWebAssets.props",

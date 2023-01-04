@@ -30,3 +30,10 @@ C:\Users\dbregovic\source\repos\Amadeus\Amadeus\obj\Debug\net6.0\refint\Amadeus.
 C:\Users\dbregovic\source\repos\Amadeus\Amadeus\obj\Debug\net6.0\Amadeus.pdb
 C:\Users\dbregovic\source\repos\Amadeus\Amadeus\obj\Debug\net6.0\Amadeus.genruntimeconfig.cache
 C:\Users\dbregovic\source\repos\Amadeus\Amadeus\obj\Debug\net6.0\ref\Amadeus.dll
+C:\Users\dbregovic\source\repos\Amadeus\Amadeus\obj\Debug\net6.0\scopedcss\Pages\Entrance.razor.rz.scp.css
+C:\Users\dbregovic\source\repos\Amadeus\Amadeus\obj\Debug\net6.0\scopedcss\Pages\Headerbar.razor.rz.scp.css
+C:\Users\dbregovic\source\repos\Amadeus\Amadeus\obj\Debug\net6.0\scopedcss\Pages\Offers.razor.rz.scp.css
+C:\Users\dbregovic\source\repos\Amadeus\Amadeus\obj\Debug\net6.0\scopedcss\Pages\Footerbar.razor.rz.scp.css
+C:\Users\dbregovic\source\repos\Amadeus\Amadeus\obj\Debug\net6.0\scopedcss\Pages\NavigationComponent.razor.rz.scp.css
+C:\Users\dbregovic\source\repos\Amadeus\Amadeus\obj\Debug\net6.0\scopedcss\Pages\TransitionComponent.razor.rz.scp.css
+C:\Users\dbregovic\source\repos\Amadeus\Amadeus\obj\Debug\net6.0\scopedcss\Pages\Tooltip.razor.rz.scp.css
