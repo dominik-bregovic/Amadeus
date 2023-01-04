@@ -2,11 +2,11 @@
 
 <div class="container-fluid ">
 
-    <div class="row bg-dark ">
+    <div class="row">
 
         <div class="naviga col d-flex justify-content-center">
-            <nav class="navbar navbar-light">
-                <a class="navbar-brand" href="#">
+            <nav class="navbar navbar-light" @onclick="ToggleNavMenu">
+                <a class="navbar-brand" >
                     <img class="img" src="/images/menu.png" asp-append-version="true" width="50px">
                 </a>
             </nav>
@@ -75,8 +75,19 @@
         -->
     </div>
 
+    <div class="@NavMenuCssClass">
+        <NavMenu></NavMenu>
+    </div>
+    
 </div>
 
 @code {
+    private bool collapseNavMenu = true;
 
+    private string? NavMenuCssClass => collapseNavMenu ? "collapse" : null;
+
+    private void ToggleNavMenu()
+    {
+        collapseNavMenu = !collapseNavMenu;
+    }
 }

@@ -4,23 +4,24 @@
 .center_header {
     margin: auto;
     border: 0px solid;
-    padding: 10px 0;
+    padding: 20px 0;
+    margin-top: 30px;
     text-align: center;
 }
 
 .transition_picture {
+   float:left;
     padding-top: 0px;
-    float: right;
     height: 100px;
     border: 0px solid;
 }
 .transition_text {
-    float:left;
+   float:right;
     width: 300px;
     height: 100px;
     border: 0px solid;
 }
 
-.img {
-    transform: rotate(180deg);
+.div_center {
+    width: 400px;
 }

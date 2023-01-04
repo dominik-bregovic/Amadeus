@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "jxMnFj55XhVtL3ONzCnEM42dQXxf1vVSXYX0ZhTSHu8=",
+  "Hash": "STZVVQmMBf3egyFdxOPl7A0Yh8W2+3Z88K1C2Mc1yeo=",
   "Source": "Amadeus",
   "BasePath": "_content/Amadeus",
   "Mode": "Default",
@@ -83,6 +83,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Identity": "C:\\Users\\dbregovic\\source\\repos\\Amadeus\\Amadeus\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
+      "SourceId": "Amadeus",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\dbregovic\\source\\repos\\Amadeus\\Amadeus\\wwwroot\\",
+      "BasePath": "_content/Amadeus",
+      "RelativePath": "css/open-iconic/FONT-LICENSE",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\open-iconic\\FONT-LICENSE"
     },
     {
       "Identity": "C:\\Users\\dbregovic\\source\\repos\\Amadeus\\Amadeus\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
@@ -187,23 +204,6 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff"
     },
     {
-      "Identity": "C:\\Users\\dbregovic\\source\\repos\\Amadeus\\Amadeus\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
-      "SourceId": "Amadeus",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\dbregovic\\source\\repos\\Amadeus\\Amadeus\\wwwroot\\",
-      "BasePath": "_content/Amadeus",
-      "RelativePath": "css/open-iconic/FONT-LICENSE",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\open-iconic\\FONT-LICENSE"
-    },
-    {
       "Identity": "C:\\Users\\dbregovic\\source\\repos\\Amadeus\\Amadeus\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
       "SourceId": "Amadeus",
       "SourceType": "Discovered",
@@ -289,23 +289,6 @@
       "OriginalItemSpec": "wwwroot\\images\\amadeus-icon.png"
     },
     {
-      "Identity": "C:\\Users\\dbregovic\\source\\repos\\Amadeus\\Amadeus\\wwwroot\\images\\dnevni.jpg",
-      "SourceId": "Amadeus",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\dbregovic\\source\\repos\\Amadeus\\Amadeus\\wwwroot\\",
-      "BasePath": "_content/Amadeus",
-      "RelativePath": "images/dnevni.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\dnevni.jpg"
-    },
-    {
       "Identity": "C:\\Users\\dbregovic\\source\\repos\\Amadeus\\Amadeus\\wwwroot\\images\\dnevni-meni.jpg",
       "SourceId": "Amadeus",
       "SourceType": "Discovered",
@@ -321,6 +304,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\dnevni-meni.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\dbregovic\\source\\repos\\Amadeus\\Amadeus\\wwwroot\\images\\dnevni.jpg",
+      "SourceId": "Amadeus",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\dbregovic\\source\\repos\\Amadeus\\Amadeus\\wwwroot\\",
+      "BasePath": "_content/Amadeus",
+      "RelativePath": "images/dnevni.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\dnevni.jpg"
     },
     {
       "Identity": "C:\\Users\\dbregovic\\source\\repos\\Amadeus\\Amadeus\\wwwroot\\images\\email-Icon.png",
@@ -357,23 +357,6 @@
       "OriginalItemSpec": "wwwroot\\images\\facebook.png"
     },
     {
-      "Identity": "C:\\Users\\dbregovic\\source\\repos\\Amadeus\\Amadeus\\wwwroot\\images\\free-phone-icon.png",
-      "SourceId": "Amadeus",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\dbregovic\\source\\repos\\Amadeus\\Amadeus\\wwwroot\\",
-      "BasePath": "_content/Amadeus",
-      "RelativePath": "images/free-phone-icon.png",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\free-phone-icon.png"
-    },
-    {
       "Identity": "C:\\Users\\dbregovic\\source\\repos\\Amadeus\\Amadeus\\wwwroot\\images\\free-phone-icon-1-thumb.png",
       "SourceId": "Amadeus",
       "SourceType": "Discovered",
@@ -389,6 +372,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\free-phone-icon-1-thumb.png"
+    },
+    {
+      "Identity": "C:\\Users\\dbregovic\\source\\repos\\Amadeus\\Amadeus\\wwwroot\\images\\free-phone-icon.png",
+      "SourceId": "Amadeus",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\dbregovic\\source\\repos\\Amadeus\\Amadeus\\wwwroot\\",
+      "BasePath": "_content/Amadeus",
+      "RelativePath": "images/free-phone-icon.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\free-phone-icon.png"
     },
     {
       "Identity": "C:\\Users\\dbregovic\\source\\repos\\Amadeus\\Amadeus\\wwwroot\\images\\instagram.png",
@@ -425,6 +425,23 @@
       "OriginalItemSpec": "wwwroot\\images\\landing_picture.png"
     },
     {
+      "Identity": "C:\\Users\\dbregovic\\source\\repos\\Amadeus\\Amadeus\\wwwroot\\images\\menu-Icon.jpg",
+      "SourceId": "Amadeus",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\dbregovic\\source\\repos\\Amadeus\\Amadeus\\wwwroot\\",
+      "BasePath": "_content/Amadeus",
+      "RelativePath": "images/menu-Icon.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\menu-Icon.jpg"
+    },
+    {
       "Identity": "C:\\Users\\dbregovic\\source\\repos\\Amadeus\\Amadeus\\wwwroot\\images\\menu.jpg",
       "SourceId": "Amadeus",
       "SourceType": "Discovered",
@@ -457,23 +474,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\menu.png"
-    },
-    {
-      "Identity": "C:\\Users\\dbregovic\\source\\repos\\Amadeus\\Amadeus\\wwwroot\\images\\menu-Icon.jpg",
-      "SourceId": "Amadeus",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\dbregovic\\source\\repos\\Amadeus\\Amadeus\\wwwroot\\",
-      "BasePath": "_content/Amadeus",
-      "RelativePath": "images/menu-Icon.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\menu-Icon.jpg"
     },
     {
       "Identity": "C:\\Users\\dbregovic\\source\\repos\\Amadeus\\Amadeus\\wwwroot\\images\\navigation.png",
