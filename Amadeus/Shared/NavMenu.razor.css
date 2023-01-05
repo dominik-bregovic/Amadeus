@@ -3,8 +3,10 @@
 }
 
 .top-row {
+    position: relative;
     height: 6.25rem;
-    background-color: rgba(0,0,0,0.5);
+    background-color: rgba(0,0,0,1);
+    text-align: center;
 }
 
 .navbar-brand {
@@ -50,7 +52,7 @@
     color: white;
 }
 
-@media (min-width: 641px) {
+
     .navbar-toggler {
         display: none;
     }
@@ -59,4 +61,8 @@
         /* Never collapse the sidebar for wide screens */
         display: block;
     }
+
+
+.spacing{
+    margin-right: 10px;
 }

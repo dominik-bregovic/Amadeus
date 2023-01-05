@@ -8,11 +8,11 @@
 .img{
 
 }
-.img:hover {
-    border-width: 10px;
-    background-color: #ffffff;
-    border-radius: 6px;
-}
+    .img:hover {
+        border-width: 10px;
+        background-color: #555;
+        border-radius: 6px;
+    }
 
 .container-fluid {
     background-color: rgba(0,0,0,0.9);
