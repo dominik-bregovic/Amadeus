@@ -1,0 +1,24 @@
+﻿
+
+<div class="tooltip-wrapper">
+    <span>
+        <h2>@HeaderText</h2>
+
+        <h5>@DayWeekText</h5>
+        <p>@WeekText</p>
+
+        <h5>@DayWeekendText</h5>
+        <p>@WeekendText</p>
+    </span>
+    @ChildContent
+</div>
+
+@code {
+    [Parameter] public RenderFragment ChildContent { get; set; }
+    [Parameter] public string HeaderText { get; set; }
+    [Parameter] public string DayWeekText { get; set; }
+    [Parameter] public string WeekText { get; set; }
+    [Parameter] public string DayWeekendText { get; set; }
+    [Parameter] public string WeekendText { get; set; }
+
+}

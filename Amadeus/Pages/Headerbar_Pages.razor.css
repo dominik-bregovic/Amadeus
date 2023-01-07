@@ -1,0 +1,19 @@
+﻿
+.center_header {
+    margin: auto;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.img {
+}
+
+    .img:hover {
+        border-width: 10px;
+        background-color: #555;
+        border-radius: 6px;
+    }
+
+.container-fluid {
+    background-color: rgba(0,0,0,0.9);
+}

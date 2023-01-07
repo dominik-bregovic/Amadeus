@@ -6,7 +6,7 @@
 
         <div class="naviga col d-flex justify-content-center">
             <nav class="navbar navbar-light" @onclick="ToggleNavMenu">
-                <a class="navbar-brand" >
+                <a class="navbar-brand">
                     <img class="img" src="/images/menu.png" asp-append-version="true" width="50px">
                 </a>
             </nav>
@@ -15,23 +15,23 @@
         <div class="restaurant_info col d-flex justify-content-center">
             <div class="center_header text-nowrap">
 
-                <Tooltip HeaderText="Restoran:" DayWeekText="PON-PET" WeekText="10:00 - 22:00 " DayWeekendText="SUB-Ned" WeekendText="10:00-24:00"><h3>Radno vrijeme</h3></Tooltip>
+                <TooltipBottom HeaderText="Restoran:" DayWeekText="PON-PET" WeekText="10:00 - 22:00 " DayWeekendText="SUB-Ned" WeekendText="10:00-24:00"><h3>Radno vrijeme</h3></TooltipBottom>
             </div>
 
 
         </div>
 
         <div class="col-md-3 d-flex justify-content-center d-none d-lg-block">
-            <div class="center_header">
+            <div class="center">
                 <a class="navbar-brand center_header" href="#">
                     <img src="/images/amadeus-icon.png" asp-append-version="true" width="80px">
                 </a>
-                
+
             </div>
         </div>
 
         <div class="rezervations col d-flex justify-content-center">
-            <div class="center">
+            <div class="center_header">
                 <h3 class="text-light"> Rezervacije </h3>
             </div>
         </div>
@@ -68,7 +68,7 @@
         </div>
 
 
-       
+
         <!--<div class="sidebar">
             <NavMenu />
         </div>
@@ -78,7 +78,7 @@
     <div class="@NavMenuCssClass">
         <NavMenu></NavMenu>
     </div>
-    
+
 </div>
 
 @code {
@@ -90,4 +90,9 @@
     {
         collapseNavMenu = !collapseNavMenu;
     }
+}
+
+
+@code {
+
 }
