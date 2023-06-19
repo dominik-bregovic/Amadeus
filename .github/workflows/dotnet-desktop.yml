@@ -23,8 +23,7 @@ jobs:
        #Docker
       - name: Build Docker Image
         run: |
-          cd Amadeus
-          docker build -t tcmtestaccount/amadeus:${{ github.sha }} .
+          docker build -t tcmtestaccount/amadeus:${{ github.sha }} -f ./Amadeus/Dockerfile .
 
       - name: Login to Docker Hub
         uses: docker/login-action@v2
