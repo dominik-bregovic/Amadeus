@@ -23,7 +23,7 @@ jobs:
        #Docker
       - name: Build Docker Image
         run: |
-          docker build -t tcmtestaccount/amadeus:${{ github.run_id }} -f ./Amadeus/Dockerfile .
+          docker build -t tcmtestaccount/amadeus:${{ github.run_number }} -f ./Amadeus/Dockerfile .
 
       - name: Login to Docker Hub
         uses: docker/login-action@v2
@@ -33,4 +33,4 @@ jobs:
             password: ${{ secrets.DOCKER_PASSWORD }}
 
       - name: Push Docker Image
-        run: docker push tcmtestaccount/amadeus:${{ github.run_id }}
+        run: docker push tcmtestaccount/amadeus:${{ github.run_number }}
