@@ -26,6 +26,6 @@ jobs:
           DOCKER_PASSWORD: ${{ secrets.DOCKER_PASSWORD }}
         run: |
           # Replace `<DOCKER_USERNAME>/<IMAGE_NAME>` with your Docker Hub repository details
-          docker build -t <DOCKER_USERNAME>/<IMAGE_NAME> .
-          docker login -u $DOCKER_USERNAME -p $DOCKER_PASSWORD
-          docker push <DOCKER_USERNAME>/<IMAGE_NAME>
+          docker build -t ${{ secrets.DOCKER_USERNAME }}/Amadeus:${{ github.run_number }} .
+          docker login -u ${{ secrets.DOCKER_USERNAME }} -p ${{ secrets.DOCKER_PASSWORD }}
+          docker push ${{ secrets.DOCKER_USERNAME }}/Amadeus:${{ github.run_number }}
